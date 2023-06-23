@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/assets/fonts/OpenSans.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/assets/fonts/OpenSans-700.woff2') format('woff2');
+}
+
+html {
+	background: #b63636;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+* {
+	font-family: 'OpenSans', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	color: #ffffff;
+}
+
+span {
+	margin: 0 20px;
+}
+
+.wrapper {
+	margin: 1rem 0;
+	padding: 20px;
+	width: 500px;
+	max-width: 95vw;
+	background: #202020;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 8px 8px 20px rgba(0, 0, 0, .2);
+}
+
+header {
+	font-size: 1.5rem;
+	color: #cb7070;
+	padding: 15px;
+	margin-bottom: 15px;
+	text-align: right;
+}
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 0
+}
+
+#info {
+	text-align: center;
+}
+
+#clicker {
+	height: 250px;
+	width: 100%;
+	font-size: 50px;
+	border-radius: 25px;
+	border: 5px solid #b63636;
+	background: #aaaaaa;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	cursor: pointer;
+	touch-action: manipulation;
+	transition: .1s;
+	margin: 2rem auto;
+	outline: none;
+}
+
+#clicker:active {
+	border: 3px solid #b63636;
+	background: #cb7070;
+	font-size: 60px;
+	outline: none;
+}
+
+#cps {
+	font-weight: bold;
+	margin: 2rem 0;
+	min-height: 25px;
+}
+
+.bouton {
+	background: #9b0000;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	text-align: center;
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+	cursor: pointer;
+	transition: .1s;
+}
+
+.bouton:hover {
+	background: #b63636;
+}
